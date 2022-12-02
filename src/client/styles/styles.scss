@@ -1,0 +1,237 @@
+
+body{
+    background-image: url(/src/client/media/travel.jpg);
+   background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    height:100vh;
+margin: auto;
+  
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+ 
+}
+
+.dateColor{
+    color: purple;
+    background-color: pink;
+   border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+ 
+
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+   
+  
+    color: #f0d43a;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.holder{
+    text-align: center;
+   
+}
+
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+    
+}
+
+
+
+#entryHolder{
+    text-align: center;
+    justify-content: center;
+    
+    
+   
+    
+
+}
+
+footer{
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#date{
+    color: red;
+
+}
+
+
+
+#temp{
+    color: yellow;
+    font-size: 16px;
+
+}
+
+
+
+#destination{
+    color: yellow;
+
+}
+
+#extra{
+    color: rgb(240, 222, 217);
+    font-size: 14px;
+  
+
+}
+#countdown{
+    color: rgb(240, 222, 217);
+    font-size: 16px;
+  
+}
+
+#content{
+    color: red;
+
+}
+
+#city{
+text-align: center;
+margin: auto;
+}
+
+.headline {
+   
+    margin: auto;
+  
+    
+    
+
+}
+.title{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+   
+    font-size: 27px;
+    color: pink;
+    background-color: #3b4a6b ;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background: whitesmoke;
+    color: black;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+   
+  
+    justify-content: center;
+   text-align: center;
+    border: black 2px solid;
+  border-radius: 20px;
+    
+    
+    
+    
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    background: #3b4a6b;
+    color: #f0d43a;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: black 2px solid;
+    box-shadow: 2px 4px 5px #444;
+}
+h1{
+    font-size: 36px;
+    color: rgb(181, 197, 31);
+    text-align: center;
+    background-color: #3b4a6b;
+    border: 3px black solid;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+ 
+   
+   
+    
+}
+#container{
+    background: rgba(231, 209, 5, 0.6);
+     
+}
+
+textarea{
+    background:#22b2da;
+    color: black;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: black; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: black; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: black; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+
+
+
+//media responsiveness
+
+
+
